@@ -1,0 +1,41 @@
+*{
+    font-family: 'Archivo', sans-serif;
+}
+
+.container{
+    overflow: hidden;
+}
+
+header > nav{
+    height: 50px;
+    width: 950px;
+    background-color: gray;
+}
+
+nav > p{
+    display: inline-block;
+    font-weight: 500;
+    color: white;
+    margin-left: 10px;
+}
+
+nav > p:hover{
+    color: yellow;
+    cursor: pointer;
+}
+
+header > img:nth-of-type(2){
+    height: 300px;
+}
+
+.banners > ul{
+    list-style: none;
+}
+
+.banners > ul > li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+
