@@ -9,7 +9,7 @@
 header > nav{
     height: 50px;
     width: 950px;
-    background-color: gray;
+    background-color: #222931;
 }
 
 nav > p{
@@ -35,6 +35,12 @@ header > img:nth-of-type(2){
 .banners > ul > li{
     display: inline-block;
     margin-left: 10px;
+}
+
+.ribbon{
+    background-color: #ffe718;
+    width: 1000px;
+    height: 100px;
 }
 
 
