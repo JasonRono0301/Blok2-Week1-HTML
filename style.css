@@ -1,9 +1,7 @@
-*{
-    font-family: 'Archivo', sans-serif;
-}
-
 .container{
-    overflow: hidden;
+    font-family: 'Archivo', sans-serif;
+    width: fit-content;
+    position: relative;
 }
 
 header > nav{
@@ -14,9 +12,10 @@ header > nav{
 
 nav > p{
     display: inline-block;
+    font-size: 12px;
     font-weight: 500;
     color: white;
-    margin-left: 10px;
+    margin: 15px 30px;
 }
 
 nav > p:hover{
@@ -43,10 +42,34 @@ header > img:nth-of-type(2){
     height: 100px;
 }
 
-.ribbon > p:nth-child(1){
-    font-size: 34px;
+.ribbon p{
+    display: inline-block;
+    margin-left: 10px;
 }
 
+.ribbon > p:nth-child(1){
+    font-size: 34px;
+    font-weight: 700;
+}
 
+.ribbon > p:nth-child(2){
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 700;
+}
+
+.ribbon > p:nth-child(3){
+    font-size: 12px;
+    background-color: white;
+    padding: 10px 30px;
+    margin-left: 100px;
+    font-weight: 500;
+}
+
+.subMenu img{
+    margin-top: 40px;
+    height: 150px;
+    width: 1000px;
+}
 
 
