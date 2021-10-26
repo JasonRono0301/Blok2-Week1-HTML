@@ -43,5 +43,10 @@ header > img:nth-of-type(2){
     height: 100px;
 }
 
+.ribbon > p:nth-child(1){
+    font-size: 34px;
+}
+
+
 
 
