@@ -1,12 +1,14 @@
 .container{
     font-family: 'Archivo', sans-serif;
-    width: fit-content;
-    position: relative;
+    width: 1000px;
 }
 
 header > nav{
+    position: relative;
+    top: 25px;
     height: 50px;
     width: 950px;
+    margin-left: 20px;
     background-color: #222931;
 }
 
@@ -66,10 +68,28 @@ header > img:nth-of-type(2){
     font-weight: 500;
 }
 
-.subMenu img{
-    margin-top: 40px;
-    height: 150px;
+footer > div:nth-of-type(1){
+    position: relative;
+    margin-top: 30px;
+}
+
+footer img{
+    height: 200px;
     width: 1000px;
+}
+
+footer .blokjes{
+    position: absolute;
+    top: 150px;
+    left: 80px;
+}
+
+.blokjes > div{
+    display: inline-block;
+    margin-left: 20px;
+    height: 90px;
+    width: 250px;
+    background-color: yellow;
 }
 
 
